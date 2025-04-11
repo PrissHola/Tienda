@@ -1,0 +1,388 @@
+
+
+ /* Estilo para la imagen en la navbar */
+ .navbar-brand img {
+    height: 30px;
+    display: inline-block;
+    margin-top: -5px;
+  }
+  #mvv-section, #Nosotros2 {
+  
+    padding: 3px 0; /* Reduce el padding para que las secciones estén más juntas */
+}
+      /* Estilo para el nombre de la categoría */
+      .carousel-caption h3 {
+        color: #ff663b;  /* Cambia el color del nombre de la categoría a naranja */
+    }
+
+    /* Estilo para la descripción del carrusel */
+    .carousel-caption p {
+        color: #ff663b;  /* Cambia el color de la descripción a naranja */
+    }
+  
+  /* Estilo para la marca de la navbar */
+  .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Cambié el color para que se vea bien sobre fondo oscuro */
+    padding-left: 10px; /* Ajuste para mejorar el espaciado */
+  }
+  body {
+  padding-top: 70px; /* Ajusta este valor a la altura real de tu navbar */
+  }
+  /* Estilo para el formulario de búsqueda */
+  .navbar-form {
+    margin-left: 10px;
+  }
+  
+  /* Estilo para los enlaces de la navbar */
+  .navbar-nav > li > a {
+    color: white !important; /* Asegura que el texto sea blanco */
+  }
+  
+  /* Estilo para el fondo oscuro de la navbar */
+  .navbar-inverse {
+    background-color: #00625a;
+    border-color:rgb(24, 186, 204);
+  
+  }
+  .active{
+    background-color: #00625a;
+  }
+  
+  /* Estilo para el texto de la navbar */
+  .navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+  }
+  
+  /* Hover en los enlaces de la navbar */
+  .navbar-nav > li > a:hover {
+    color: #f0ad4e !important; /* Color de hover */
+  }
+  .bg-1 {
+  background: #5ba88a;
+  color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+  
+  }
+  .thumbnail p {
+  margin-top: 15px;
+  color: #555;
+  
+  }
+  .btn {
+  padding: 10px 20px;
+  background-color: #ff663b;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+  }
+  .cat{
+  color: white;
+  }
+  .titulo2 {
+  color: #ff663b;
+  font-weight: bold; /* Opcional, para resaltar más */
+  }
+  .carousel-caption {
+  color: black !important;
+  padding: 10px;
+  border-radius: 5px;
+  }
+  .carousel-caption4 {
+  color: black !important;
+  background: rgba(255, 255, 255, 0.6); /* Fondo blanco semitransparente */
+  padding: 10px;
+  border-radius: 5px;
+  }
+  .titulo{
+    margin-top: 45px;
+    text-align: center;
+  }
+  .custom-company-description {
+      background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+      padding: 1px;
+      border-radius: 8px;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+      margin-bottom: 8px;
+      margin-top: 37px;
+  }
+
+  
+  .custom-company-description h3, 
+  .custom-company-description p {
+      color: #000000; /* Texto en color negro */
+      
+  }
+  .mvv-section .container {
+  background-color: #ffffff !important;
+  padding: 0; /* Elimina padding si es necesario */
+  } 
+  
+  .mvv-section {
+  background-color: #ffffff !important; /* Asegura que el fondo sea blanco */
+  padding: 50px 0;
+  margin: 0;
+  }
+  
+  .mvv-section .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #591300;
+      font-weight: bold;
+  }
+  
+  .mvv-section .card {
+      transition: transform 0.3s ease-in-out;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.9); /* Fondo con más transparencia */
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .mvv-section .card:hover {
+      transform: scale(1.05);
+  }
+  
+  .mvv-section .icon {
+      font-size: 50px;
+      color: #ffffff;
+  }
+  
+  .mvv-section .card-header {
+      background-color: #ff663b;
+      color: white;
+  }
+  
+  .mvv-section .card-body {
+      background-color: rgba(89, 19, 0, 0.9); /* Fondo con más transparencia */
+      color: #f8f9fa;
+      padding: 30px; /* Más borde entre el cuadro y el texto */
+      flex-grow: 1; /* Hace que el contenido de la tarjeta crezca igual en todos los cuadros */
+  }
+  
+  /* Estilos para la sección de contacto */
+  .contact-section {
+      background-color: #ffffff; /* Fondo blanco */
+      padding: 50px 0; /* Añadimos padding alrededor */
+      color:white;
+  }
+  
+  .contact-section h3, .contact-section p {
+      margin-top: 50px; /* Mueve tanto el título como el párrafo hacia abajo */
+  }
+  
+  .contact-section .container {
+      background-color: #5ba88a; /* Fondo blanco dentro del contenedor */
+      padding: 30px;
+      border-radius: 8px; /* Bordes redondeados */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .contact-section .social-icons {
+      text-align: center;
+      margin-top: 30px;
+  }
+  
+  .contact-section .social-icons a {
+      font-size: 40px;
+      margin: 0 15px;
+      color: #00625a;
+      text-decoration: none;
+  }
+  
+  .contact-section .social-icons a:hover {
+      color: #00625a;
+  }
+  #mvv-section, #nosotros {
+  background-color: #ffffff !important; /* Fondo blanco para toda la sección */
+  padding: 50px 0;
+  margin: 0;
+  }
+  
+  
+  
+  
+  
+  
+      /* Estilos específicos para la sección de la colección de ropa */
+      .dresses-section .bg-1 {
+        background: #5ba88a;
+        color: #bdbdbd;
+        padding: 50px 0;
+      }
+  
+      .dresses-section .thumbnail {
+        padding: 0 0 15px 0;
+        border: none;
+        border-radius: 0;
+        text-align: center; /* Centrar contenido dentro del thumbnail */
+      }
+  
+      .dresses-section .thumbnail img {
+        width: 100%;
+        height: auto;
+      }
+  
+      .dresses-section .btn {
+        padding: 10px 20px;
+        background-color: #ff663b;
+        color: #f1f1f1;
+        border-radius: 0;
+        transition: .2s;
+        display: block; /* Hace que ocupe todo el ancho disponible */
+        margin: 10px auto; /* Centra el botón horizontalmente */
+        width: 50%; /* Controla el tamaño del botón */
+      }
+  
+      .dresses-section .btn:hover, .dresses-section .btn:focus {
+        border: 1px solid #333;
+        background-color: #5ba88a;
+        color: #000;
+      }
+  
+      .dresses-section .description {
+        font-size: 14px;
+        color: black;
+      }
+  
+      /* Nuevo color para los títulos de los vestidos */
+      .dresses-section h4 {
+        color: #591300;
+      }
+      .dresses-sectionh .bg-1 {
+        background: #5ba88a;
+        color: #bdbdbd;
+        padding: 50px 0;
+      }
+      .dresses-sectionh .thumbnail img {
+    width: 60%; 
+    height: auto; 
+    margin: 0 auto;
+  }
+      .dresses-sectionh .thumbnail {
+        padding: 0 0 15px 0;
+        border: none;
+        border-radius: 0;
+        text-align: center; 
+      
+      }
+  
+      .dresses-sectionh .btn {
+        padding: 10px 20px;
+        background-color: #ff663b;
+        color: #f1f1f1;
+        border-radius: 0;
+        transition: .2s;
+        display: block; 
+        margin: 10px auto; 
+        width: 50%; /* botón */
+      }
+  
+      .dresses-sectionh .btn:hover, .dresses-sectionh .btn:focus {
+        border: 1px solid #333;
+        background-color: #5ba88a;
+        color: #000;
+      }
+      
+  
+      .dresses-sectionh .description {
+        font-size: 14px;
+        color: black;
+      }
+  
+      /*títulos de los vestidos */
+      .dresses-sectionh h4 {
+        color: #591300;
+      }
+      /* Estilo para el tooltip personalizado */
+    
+      /* Estilo para el tooltip personalizado */
+      .tooltip-inner {
+          background-color: #00625a !important;  /* Fondo azul */
+          color: #fff !important;  /* Texto blanco */
+          border-radius: 10px;  /* Bordes redondeados */
+          padding: 10px 15px;  /* Relleno dentro del tooltip */
+          font-size: 14px;  /* Tamaño de fuente */
+          max-width: 300px;  /* Ancho máximo */
+          word-wrap: break-word;  /* Ajuste de palabras largas */
+      }
+  
+      /* Opcional: Estilo para el borde del tooltip */
+      .tooltip.top .tooltip-arrow {
+          border-top-color: #4e73df !important;  /* Flecha azul */
+      }
+  
+      /* Para que el recuadro del tooltip tenga sombra */
+      .tooltip-inner {
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .filters-top {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .filters-top h4 {
+        margin-bottom: 10px;
+    }
+
+    .filters-top .filter-tagh {
+        display: inline-block;
+        padding: 6px 12px;
+        margin: 5px 5px;
+        border: 1px solid #007bff;
+        border-radius: 20px;
+        color: #007bff;
+        background-color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+
+    .filters-top .filter-tagh:hover,
+    .filters-top .filter-tagh.active {
+        background-color: #007bff;
+        color: white;
+    }
+
+   
+    .filters-top .filter-tag {
+      display: inline-block;
+      padding: 6px 12px;
+      margin: 5px 5px;
+      border: 1px solid #e91e63;
+      border-radius: 20px;
+      color: #e91e63;
+      background-color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+  }
+
+  .filters-top .filter-tag:hover,
+  .filters-top .filter-tag.active {
+      background-color: #e91e63;
+      color: white;
+  }
